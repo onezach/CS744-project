@@ -1,0 +1,12 @@
+name: CS744project
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - tritonclient
+  - tritonclient-grpc
+  - numpy
+  - pip
+  - pip:
+    - torchvision 
+    - opencv-python-headless
