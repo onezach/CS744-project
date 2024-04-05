@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - tensorflow
   - tritonclient
   - tritonclient-grpc
   - numpy
